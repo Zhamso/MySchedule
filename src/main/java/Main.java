@@ -9,9 +9,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
 Scanner sc = new Scanner(System.in);
-//System.out.println("Введите номер группы");
-//String groupId = sc.nextLine();
-        String groupId = "05370";
+        System.out.println("Введите номер группы");
+        String groupId = sc.nextLine();
         Helper helper = new Helper();
         Day[] days = new Day[14];
         for (int i = 0; i < 14; i++) {
